@@ -1,0 +1,101 @@
+<SCRIPT language=JavaScript>
+
+window.onError=null
+
+function preLoad() {
+        imag = new Array()
+        imag[0] = "plays.gif"
+        imag[1] = "plays_hi.gif"
+        imag[2] = "charms.gif"
+        imag[3] = "charms_hi.gif"
+        imag[4] = "russian.gif"
+        imag[5] = "russian_hi.gif"
+        imag[6] = "translators.gif"
+        imag[7] = "translators_hi.gif"
+        imag[8] = "home.gif"
+        imag[9] = "home_hi.gif"
+                                       
+                        
+im = new Array()
+for (var i = 0; i < imag.length; i++){
+       im[i] = new Image()
+       im[i].src = imag[i]
+    }
+    
+}       
+
+
+function swtch(num,imgname){
+        imgname.src = im[num].src
+}
+
+
+function makerussian() {
+		top.name = "base";
+ 
+win=window.open('russian.html','russian','toolbar=no,status=yes,Width=472,Height=235,directories=no,scrollbars=no,location=no,resize=no,menubar=no');
+}
+
+// Stop hiding from old browsers -->
+</SCRIPT>
+
+
+<html>
+<head>
+
+<!--DOCTYPE: HTML 3.0-->
+<META name="DESCRIPTION" CONTENT="charms at home">
+
+<META name="KEYWORDS" CONTENT="open">
+
+<META NAME = "ENTRY" CONTENT="11/2000">
+
+<META NAME = "EDITOR" CONTENT="charms">
+
+	<title> kharms | daniil </title>
+	
+<script language="JavaScript" src="caviar.js">
+</script>
+
+
+</head>
+<SCRIPT LANGUAGE = "JavaScript">
+function DisableRightClick()
+{
+  if (window.event.button == 2 || window.event.button == 3)
+    {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+	  alert("This application does not have a right-click menu"); return false;
+    }
+  
+  else {return true;}
+}
+
+	//SET onMouseDown FUNCTION
+document.onmousedown = DisableRightClick;
+</SCRIPT>
+
+
+
+<BODY BGCOLOR="#847A7A" TEXT="#103D54" LINK="#FFFFFF" VLINK="#DDDDDD" ALINK="#5FA1EA" onload="init()">
+
+<map name="who">
+<area shape="rect" coords="1137,9,1223,51" href="/charms/plays/play1.html" TARGET="_top">
+<area shape="rect" coords="842,37,949,66" href="/charms/plays/play2.html" TARGET="_top">
+<area shape="rect" coords="559,17,636,99" href="/charms/plays/play3.html" TARGET="_top">
+<area shape="rect" coords="11,31,116,64" href="/charms/plays/play4.html" TARGET="_top">
+</map>
+
+ 
+
+<div id="scroll01" style="position:absolute; left:-1794; top:0; width:4260; height:70; visibility:visible;">
+<table cellpadding="0" cellspacing="0" border=0 width="331" height="70">
+<tr VALIGN="center">
+<td width=1420 height=68><img src="who.gif" width=1539 height=68 border="0" usemap="#who"></td>
+<td width=1420 height=68><img src="who.gif" width=1539 height=68 border="0" usemap="#who"></td>
+<td width=1420 height=68><img src="who.gif" width=1539 height=68 border="0" usemap="#who"></td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>

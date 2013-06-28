@@ -1,0 +1,122 @@
+<style type="text/css">	
+	font
+	{
+		font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	}
+	td
+	{
+		font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-size : 12; 
+	}
+</style>
+<link href="style.css" rel="stylesheet">
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+ <SCRIPT language=JavaScript>
+
+window.onError=null
+
+function preLoad() {
+        imag = new Array()
+        imag[0] = "/charms/31plays/plays.gif"
+        imag[1] = "/charms/31plays/plays_hi.gif"
+        imag[2] = "/charms/31plays/charms.gif"
+        imag[3] = "/charms/31plays/charms_hi.gif"
+        imag[4] = "/charms/31plays/russian.gif"
+        imag[5] = "/charms/31plays/russian_hi.gif"
+        imag[6] = "/charms/31plays/translators.gif"
+        imag[7] = "/charms/31plays/translators_hi.gif"
+        imag[8] = "/charms/31plays/home.gif"
+        imag[9] = "/charms/31plays/home_hi.gif"
+                                       
+                        
+im = new Array()
+for (var i = 0; i < imag.length; i++){
+       im[i] = new Image()
+       im[i].src = imag[i]
+    }
+    
+}       
+
+
+function swtch(num,imgname){
+        imgname.src = im[num].src
+}
+
+
+function makerussian() {
+		top.name = "base";
+ 
+win=window.open('russian.html','russian','toolbar=no,status=yes,Width=472,Height=235,directories=no,scrollbars=no,location=no,resize=no,menubar=no');
+}
+
+// Stop hiding from old browsers -->
+</SCRIPT>
+
+<html>
+<head>
+<title>YBM | 2</title>
+</head>
+<body TEXT="#282524" LINK="#4E433F" VLINK="#4E433F" ALINK="#847A7A" BGCOLOR="#ACA5A5" BACKGROUND="31plays_bgtile.gif" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0" onload=preLoad();>
+
+<table border=0 cellspacing="0" cellpadding="0" width=808 align=center>
+
+       <tr><TD valign="top" height=21>
+        
+        <A 
+          onmouseover="swtch(9,home);self.status='home'; return true" 
+          onmouseout=swtch(8,home); target=_top 
+          href="/index.html"><IMG height=21 
+          hspace=0 src="/charms/31plays/home.gif" width=49 vspace=2 border=0 
+          name=home></A>
+        
+        <A 
+          onmouseover="swtch(1,plays);self.status=' '; return true" 
+          onmouseout=swtch(0,plays); target=_top 
+          href="/charms/31plays.htm"><IMG height=21 
+          hspace=40 src="/charms/31plays/plays.gif" width=58 vspace=2 border=0 
+          name=plays></A>
+       
+        <A 
+          onmouseover="swtch(3,charms);self.status='who'; return true" 
+          onmouseout=swtch(2,charms); target=_top 
+          href="/charms/who.htm"><IMG height=21 
+          hspace=10 src="/charms/31plays/charms.gif" width=70 vspace=2 border=0 
+          name=charms></A>
+        
+        <A 
+          onmouseover="swtch(5,russian);self.status='russian'; return true" 
+          onmouseout=swtch(4,russian); target=_top 
+          href="/charms/menuru.htm"><IMG height=21 
+          hspace=40 src="/charms/31plays/russian.gif" width=55 vspace=2 border=0 
+          name=russian></A>        
+        
+        <A 
+          onmouseover="swtch(7,translators);self.status='translators'; return true" 
+          onmouseout=swtch(6,translators); target=_top 
+          href="/charms/portfolio.htm"><IMG height=21 
+          hspace=0 src="/charms/31plays/translators.gif" width=70 vspace=2 border=0 
+          name=translators></A>
+       
+        </td></tr>
+<tr><td valign="top">
+<p>&nbsp;&nbsp;</p>
+        <p align="justify"><FONT FACE="verdana,helvetica,arial" SIZE=2>Being in this chaos of things and not being able to deal with it, it's a lot of fun. <br> 
+Fun of having fun. <br>
+Fun of having fun. <br>
+Fun of having fun.  <br>
+No-fun of having no-fun and stuff and stuff and stuff and stuff and stuff. <br>
+Vibes mean...<br> 
+Stealing.<br>
+</font>
+        
+        
+                </td> 
+        <TD>&nbsp;</TD>
+    </tr>
+</table>
+</center>
+</body>
+</html>
+
+

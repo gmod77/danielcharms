@@ -1,0 +1,161 @@
+[genem@yellownet bugs_dev]$ vi style.css     
+
+.bodycopy {
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+        font-size : 10pt;
+        color: #000000
+}
+
+.whitebodycopy {
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+        font-size : 10pt;
+        color: #ffffff
+}
+
+.bodycopy:link {
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+        font-size : 10pt;
+        color: #000000;
+}
+
+.bodycopy:hover {
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+        font-size : 10pt;
+        color: #999966;
+}
+
+.sidenav {
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+        font-size : 9pt;
+        text-decoration: none;
+        color: #000000
+}
+
+.sidenav:hover {
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+        font-size : 8pt;
+        text-decoration: underline;
+        color: #FFFFFF
+}
+
+.disclaimer {
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+        font-size : 8pt;
+}
+.whitedisclaimer {
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+        font-size : 8pt;
+        color: #ffffff
+}
+
+.Header {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color: #756868;
+        font-size: 16pt;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+.subhead {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 13pt;
+        color: #5E5252;
+        font-weight: bold;
+        text-decoration: none;
+}
+.subhead:hover {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 13pt;
+        color: #6F6262;
+        font-weight: bold;
+        text-decoration: underline;
+}
+
+.bodyhead {
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+        font-size : 11pt;
+        color: #000000;
+        font-weight: bold;
+}
+
+.bgColor {
+        background-color: #C0B1B1
+}
+
+.backgroundcolor2 {  background-color: black}
+
+.options {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 9px
+}
+
+.newprice_whiteheader {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        font-weight: bolder;
+        color: #FFFFFF;
+}
+
+.newprice_whitesubhead {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 7pt;
+        color: #FFFFFF;
+        font-weight: bold
+}
+
+.newprice_head {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        font-weight: bold
+}
+
+.textbox {
+        border: cccc99;
+        border-style:solid;
+        border-top-width: thin;
+        border-right-width: thin;
+        border-bottom-width: thin;
+        border-left-width: thin
+}
+
+.whiteHeader {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        font-weight: bolder;
+        color: #FFFFFF;
+}
+
+.formNoBorder {
+        border-style: none;
+}
+button {
+                border-color: white #000000 #000000 white;
+                background-color: #cccccc;
+                font-weight: bold;
+                color: black;
+                border-style: solid;
+                border-top-width: thin;
+                border-right-width: thin;
+                border-bottom-width: thin;
+                border-left-width: thin;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 9pt;
+                width: 160 px
+        }
+Input
+          {
+        font-size : 9;
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+        font-weight : bold;
+      }
+
+Select  {
+        font-size : 9;
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+                font-weight : bold;
+         }
+textarea  {
+        font-size : 9;
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+                font-weight : bold;
+         }
